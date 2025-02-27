@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #333;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: rgb(20, 14, 14);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: #f4f4f4;    
+    margin-top: 50px;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+}
+ 
+img {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    box-shadow: 2px 2px 10px black;
+    transform:scale(1.2);
+}
